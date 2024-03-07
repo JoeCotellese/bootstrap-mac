@@ -52,6 +52,8 @@ brew install --cask todoist
 brew install --cask keyboard-maestro
 brew install --cask 1password
 brew install --cask fantastical
+brew install tldr
+
 
 # Writing Apps
 echo "Installing writing apps..."
@@ -63,4 +65,3 @@ brew install --cask drafts
 echo "Installing everything else..."
 brew install --cask anki
 brew install --cask spotify
-brew install --cask minecraft
