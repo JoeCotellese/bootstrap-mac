@@ -15,11 +15,15 @@ brew tap homebrew/cask
 echo "Installing programming languages..."
 brew install python
 brew install poetry
+brew install pyenv
 brew install pipenv
 
 # Dev Tools
 echo "Installing development tools..."
 brew install --cask iterm2
+brew install starship
+brew install wget
+brew install vim
 brew install docker
 brew install git
 brew install --cask visual-studio-code
@@ -52,6 +56,8 @@ brew install --cask todoist
 brew install --cask keyboard-maestro
 brew install --cask 1password
 brew install --cask fantastical
+brew install --cask typinator
+brew install --cask bartender
 brew install tldr
 
 
