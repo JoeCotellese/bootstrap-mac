@@ -6,9 +6,9 @@
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "Installing brew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+#eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "Installing brew cask..."
 brew tap homebrew/cask
