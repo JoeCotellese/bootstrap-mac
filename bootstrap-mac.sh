@@ -71,3 +71,14 @@ brew install --cask drafts
 echo "Installing everything else..."
 brew install --cask anki
 brew install --cask spotify
+
+# Setup apps from the app store
+echo "Installing apps from the AppStore..."
+brew install mas
+mas install 497799835 # Xcode
+mas install 6444602274 # Ivory
+mas install 1435957248 # Drafts
+mas install 1593408455 # Excel
+mas install 409183694 # Keynote
+mas install 1569813296 # 1P for Safari
+
