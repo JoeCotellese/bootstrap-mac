@@ -24,6 +24,12 @@ brew install docker
 brew install git
 brew install --cask visual-studio-code
 
+# Fonts
+echo "Installing fonts..."
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code-nerd-font
+brew install --cask font-hack-nerd-font
+
 # Communication Apps
 echo "Installing communication apps..."
 brew install --cask discord
