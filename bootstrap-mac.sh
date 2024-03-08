@@ -29,6 +29,9 @@ echo "Installing communication apps..."
 brew install --cask discord
 brew install --cask slack
 brew install --cask zoom
+brew install --cask signal
+brew install --cask audio-hijack
+brew install --cask blackhole-2ch
 
 # Web Tools
 echo "Installing web tools..."
@@ -36,6 +39,7 @@ brew install nvm
 brew install --cask ngrok
 brew install --cask postman
 brew install --cask vivaldi
+brew install --cask choosy
 
 # File Storage
 echo "Installing file storage tools..."
@@ -50,6 +54,7 @@ brew install --cask focus
 brew install --cask qbserve
 brew install --cask todoist
 brew install --cask keyboard-maestro
+brew install --cask rectangle-pro
 brew install --cask 1password
 brew install --cask fantastical
 brew install --cask typinator
@@ -67,6 +72,9 @@ brew install --cask drafts
 echo "Installing everything else..."
 brew install --cask anki
 brew install --cask spotify
+brew install --cask utm
+brew install --cask kindle
+brew install --cask plex
 
 # Setup apps from the app store
 echo "Installing apps from the AppStore..."
