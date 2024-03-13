@@ -20,9 +20,10 @@ brew install --cask iterm2
 brew install starship
 brew install wget
 brew install vim
-brew install docker
+brew install --cask docker
 brew install git
 brew install --cask visual-studio-code
+brew install --cask dbeaver-community
 
 # Fonts
 echo "Installing fonts..."
@@ -36,12 +37,15 @@ brew install --cask discord
 brew install --cask slack
 brew install --cask zoom
 brew install --cask signal
+brew install --cask whatsapp
+
 brew install --cask audio-hijack
 brew install --cask blackhole-2ch
 
 # Web Tools
 echo "Installing web tools..."
 brew install nvm
+brew install hugo
 brew install --cask ngrok
 brew install --cask postman
 brew install --cask vivaldi
@@ -81,6 +85,8 @@ brew install --cask spotify
 brew install --cask utm
 brew install --cask kindle
 brew install --cask plex
+brew install --cask home-assistant
+
 
 # Setup apps from the app store
 echo "Installing apps from the AppStore..."
